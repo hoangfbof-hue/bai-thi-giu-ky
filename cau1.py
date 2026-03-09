@@ -1,0 +1,6 @@
+a = float(input("Nhập a: "))
+b = float(input("Nhập b: "))
+c = float(input("Nhập c: "))
+max_val = max(a, b, c)
+min_val = min(a, b, c)
+print(f"Số lớn nhất: {max_val}, Số nhỏ nhất: {min_val}")
