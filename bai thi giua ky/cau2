@@ -1,0 +1,14 @@
+for i in range(111, 16, -2):
+    print(i, end=" ")
+import math
+def la_so_nguyen_to(n):
+    if n < 2:
+        return False
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            return False
+    return True
+print("Cac so nguyen to tu 17 den 111:")
+for i in range(17, 112,):
+    if la_so_nguyen_to(i):
+        print(i, end=" ")
